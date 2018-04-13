@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js" ></script>
+	<link rel="stylesheet" href="assets/styles/bootstrap.min.css"/>
+	
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--本地的fonts文件无法直接引入，可采用链接方式引入-->
+	<!--或者：建立一个css文件夹和bootstrp文件同等级的(此处尚未同等级)，然后把页面style.css引入新建立的css文件夹， bt引入不变-->
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<title>EngWebForBoot</title>
+</head>
+<body>
+<div class="navCss" style="width: 100%">
+			
+	<nav class="navbar" role="navigation" >
+	  <div class="container-fluid">
+
+			<div class="navbar-left">
+				    <a class="navbar-brand" href="#">
+				    	<svg class="d-block" width="36" height="36" viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false">
+					      	<path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"> 		
+					      	</path>
+					      	<path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z">
+					      	</path>
+				      </svg>
+					</a>
+					<!-- 引入图标B -->
+					<div class="navbar-nav-scroll">
+					    <ul>
+					      <li class="nav-item">
+					        <a class="nav-link active" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Examples</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank" rel="noopener">Themes</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Jobs');" target="_blank" rel="noopener">Jobs</a>
+					      </li>
+					    </ul>
+					  </div>
+		    </div>
+
+		    <ul class="nav navbar-nav navbar-right">
+		    	<li class="nav-item dropdown">
+			      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        v4.1
+			        <span class="caret"></span>
+			      </a>
+			      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+			        <a class="dropdown-item active" href="/docs/4.1/">Latest (4.1.x)</a>
+			        <a class="dropdown-item" href="https://getbootstrap.com/docs/4.0/">v4.0.0</a>
+			        <div class="dropdown-divider"></div>
+			        <a class="dropdown-item" href="https://v4-alpha.getbootstrap.com/">v4 Alpha 6</a>
+			        <a class="dropdown-item" href="https://getbootstrap.com/docs/3.3/">v3.3.7</a>
+			        <a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">v2.3.2</a>
+			      </div>
+			    </li>
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+		    </ul>
+		</div>
+	</nav>	
+</div>
+
+
+	<main class="content-container">
+		<!--与nav之间存在白线-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 row-one">
+					<h1>Bootstrap</h1>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque reprehenderit modi pariatur provident omnis commodi reiciendis earum qui laborum nulla sunt explicabo ut facere magnam asperiores ratione vitae. Vero!
+					</p>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt esse dolorum pariatur deleniti quaerat praesentium quibusdam corrupti minima commodi illum ipsum et beatae labore sequi doloremque ullam aut incidunt? Saepe!
+					</p>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt esse dolorum pariatur deleniti quaerat praesentium quibusdam corrupti minima commodi illum ipsum et beatae labore sequi doloremque ullam aut incidunt? Saepe!
+					</p>
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<button type="button" class="btn btn-default btn-lg btn-block">Get Start</button>
+								<p class="button-footer" style="color: grey; margin-top: 10px;">
+									At present 2018
+								</p>
+							<!--改变按钮的颜色-->
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<button type="button" class="btn btn-default btn-lg btn-block">Download</button>
+							</div>
+						</div>
+				
+				</div>
+				<div class="col-md-6 row-tow">
+					<img class="img-responsive" src="assets/images/bootstrap-stack.png"/>
+					<!--调节图片大小"img-responsive"-->
+				</div>
+			</div>	
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 col-sm-12">
+						<span class="carbonads">
+							<div class="col-sm-3 col-sm-offset-2 col-md-offset-0">
+								<span class="carbon-warp">
+									<a href="#">
+										<img class="img-responsive" src="assets/images/icon_carbonads.jpg"/>
+									</a>
+								</span>
+							</div>
+							<div class="col-md-5">
+								<h6 style="color: mediumpurple; font-weight:600;">JION US</h6>
+								<!--将样式挪到CSS文件中-->
+								<!--背景添加为相同灰色-->
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</p>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- MAIN END -->
+
+	<footer-one class="footer-row">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-4 col-xs-12 col-md-offset-0 border border-white">
+
+					<svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round">
+						<title>Import icon</title>
+						<path d="M28 22v8H4v-8M16 4v20m-8-8l8 8 8-8"></path>
+					</svg>
+					<!-- 从源网站引入 -->
+					<h3>Installation</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ab sed, tenetur pariatur odio iste quaerat! Aliquid iste sequi a laboriosam ipsum perspiciatis nemo ullam nulla, aliquam, ducimus natus accusantium!
+					</p>
+
+					<hr class="half-rule">
+					 <!-- 下方横线的引入 -->
+					<button type="button" class="btn btn-default">Get Start</button>
+							
+				</div>
+				
+				<div class="col-md-4 col-xs-12 col-md-offset-0 border border-white">
+
+					<svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round">
+						<title>Download icon</title>
+						<path d="M9 22c-9 1-8-10 0-9C6 2 23 2 22 10c10-3 10 13 1 12m-12 4l5 4 5-4m-5-10v14">
+						</path>
+					</svg>
+					<!-- 从源网站引入 -->
+				    
+					<h3>BootstrapCDN</h3>
+						<p>
+							<!-- 此处加入一个x方向的横线滑动条 -->
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ab sed, tenetur pariatur odio iste quaerat!
+						</p>
+					<h5>CSS only</h5>
+					<figure class="highlight">
+						<!-- <pre>
+							<code class="language-html" data-lang="html">
+								<span class="nt">&lt;link</span> 
+								<span class="na">rel=</span>
+								<span class="s">"stylesheet"</span> 
+								<span class="na">href=</span>
+								<span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"</span> 
+								<span class="na">integrity=</span>
+								<span class="s">"sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"</span> 
+								<span class="na">crossorigin=</span>
+								<span class="s">"anonymous"</span>
+								<span class="nt">&gt;</span>
+							</code>
+						</pre> -->
+					</figure>
+					  <hr class="half-rule">
+					 <!-- 下方横线的引入 -->
+					<button type="button" class="btn btn-default">Get Start</button>
+				</div>
+				<div class="col-md-4 col-xs-12 col-md-offset-0 border border-white">
+
+					<svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="32" height="32" fill="none" stroke="currentcolor" stroke-width="2" class="text-primary mb-2" viewBox="0 0 32 32" stroke-linecap="round" stroke-linejoin="round">
+						<title>Lightning icon</title>
+						<path d="M18 13l8-11L8 13l6 6-8 11 18-11z">
+						</path>
+					</svg>
+					<!-- 从源网站引入 -->
+
+					<h3>Offical Themes</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ab sed, tenetur pariatur odio iste quaerat! Aliquid iste sequi a laboriosam ipsum perspiciatis nemo ullam nulla, aliquam, ducimus natus accusantium!
+					</p>
+					<img class="img-responsive" src="assets/images/bootstrap-themes.png"/>
+					<!--给按钮与文字加入分隔符 且将按钮单独移动-->
+					 <hr class="half-rule">
+					 <!-- 下方横线的引入 -->
+					<button type="button" class="btn btn-default ">Get Start</button>
+				</div>
+			</div>
+	   </div>
+		<!-- 灰色背景占据整个footer块 -->
+	</footer-one>
+	<!-- FOOTER-ONE END -->
+	
+	<footer-tow class="bd-footer text-muted">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<ul>
+					<li><a href="#">成都</a></li>
+					<li><a href="#">重庆</a></li>
+					<li><a href="#">西安</a></li>
+					<li><a href="#">南京</a></li>
+					</ul>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi harum rerum ex totam consequuntur blanditiis omnis atque. Eius temporibus officiis sint necessitatibus neque illo iusto unde error cupiditate debitis quo.
+					</p>
+				</div>
+				<div class="col-xs-12 col-md-4">
+				
+				</div>
+			</div>
+		</div>
+		
+	</footer-tow>
+	 <!--FOOTER-TWO END -->
+</body>
+</html>
